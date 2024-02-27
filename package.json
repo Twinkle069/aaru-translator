@@ -1,0 +1,47 @@
+{
+  "name": "aaru-translator",
+  "version": "1.0.0",
+  "description": "Google translate free library for node js",
+  "main": "index.js",
+  "scripts": {
+    "min": "node ./helpers/min.mjs",
+    "build": "echo \"Error: no build specified\" && exit 1",
+    "babel": "babel lib --out-dir src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Twinkle069/aaru-translator.git"
+  },
+  "homepage": "https://github.com/Twinkle069/aaru-translator#readme",
+  "bugs": {
+    "url": "https://github.com/Twinkle069/aaru-translator/issues"
+  },
+  "keywords": [
+    "google",
+    "translator",
+    "translate",
+    "api",
+    "free"
+  ],
+  "author": {
+    "name": "Arya"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "7.21.5",
+    "@babel/core": "7.22.1",
+    "@babel/preset-env": "7.22.4",
+    "babel-cli": "6.26.0",
+    "cross-env": "7.0.3",
+    "eslint": "8.41.0",
+    "minify": "10.2.0",
+    "nodemon": "2.0.22",
+    "standard": "17.0.0"
+  },
+  "dependencies": {
+    "axios": "1.4.0"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  }
+}
